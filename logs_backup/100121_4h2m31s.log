@@ -1,0 +1,33 @@
+
+Started server on 139.99.61.26:7777, with maxplayers: 300 lanmode is OFF.
+
+OGP_HOME_000000001_startup_scr.sh: line 2: 32739 Segmentation fault      ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 300 lanmode is OFF.
+
+OGP_HOME_000000001_startup_scr.sh: line 2:  8445 Segmentation fault      ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 300 lanmode is OFF.
+
+OGP_HOME_000000001_startup_scr.sh: line 2: 10948 Segmentation fault      ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 300 lanmode is OFF.
+
+OGP_HOME_000000001_startup_scr.sh: line 2: 11186 Segmentation fault      ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 300 lanmode is OFF.
+
+OGP_HOME_000000001_startup_scr.sh: line 2: 11383 Segmentation fault      ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 300 lanmode is OFF.
+
+OGP_HOME_000000001_startup_scr.sh: line 2: 12983 Segmentation fault      ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 300 lanmode is OFF.
+

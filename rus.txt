@@ -1,0 +1,3 @@
+c:\Users\DC\Desktop\Important Samp Gm\Project PW-TW\gamemodes\PWTW.pwn(238) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "_RenderBar"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+

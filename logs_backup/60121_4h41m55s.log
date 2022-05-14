@@ -1,0 +1,127 @@
+
+Started server on 139.99.61.26:7777, with maxplayers: 250 lanmode is OFF.
+
+*** Error in `./samp03svr': double free or corruption (fasttop): 0x0ea8d3e0 ***
+======= Backtrace: =========
+/lib/libc.so.6(+0x7966d)[0xf74bb66d]
+/lib/libstdc++.so.6(_ZdlPv+0x1f)[0xf76b3aef]
+/lib/libstdc++.so.6(_ZdaPv+0x1b)[0xf76b3b3b]
+./samp03svr[0x807fef7]
+./samp03svr[0x808013d]
+./samp03svr[0x8074c3a]
+./samp03svr[0x80763fe]
+/lib/libpthread.so.0(+0x6bbc)[0xf775dbbc]
+/lib/libc.so.6(clone+0x5e)[0xf75401de]
+======= Memory map: ========
+08048000-0806c000 r-xp 00000000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+0806c000-0806d000 rwxp 00024000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+0806d000-08095000 r-xp 00025000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08095000-08097000 rwxp 0004d000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08097000-080a1000 r-xp 0004f000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080a1000-080a2000 rwxp 00059000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080a2000-080a5000 r-xp 0005a000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080a5000-080a6000 rwxp 0005d000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080a6000-080aa000 r-xp 0005e000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080aa000-080ab000 rwxp 00062000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080ab000-08155000 r-xp 00063000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08155000-08156000 rwxp 0010d000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08156000-08180000 r-xp 0010e000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08180000-081a2000 rw-p 00138000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+081a2000-081cd000 rw-p 00000000 00:00 0 
+094e6000-094e9000 rw-p 00000000 00:00 0                                  [heap]
+094e9000-094eb000 rwxp 00000000 00:00 0                                  [heap]
+094eb000-123fd000 rw-p 00000000 00:00 0                                  [heap]
+e6b00000-e6c42000 rw-p 00000000 00:00 0 
+e6c42000-e6d00000 ---p 00000000 00:00 0 
+e6d00000-e6eff000 rw-p 00000000 00:00 0 
+e6eff000-e6f00000 ---p 00000000 00:00 0 
+e6f00000-e6ffe000 rw-p 00000000 00:00 0 
+e6ffe000-e7000000 ---p 00000000 00:00 0 
+e7000000-e7100000 rw-p 00000000 00:00 0 
+e7100000-e72fe000 rw-p 00000000 00:00 0 
+e72fe000-e7300000 ---p 00000000 00:00 0 
+e7300000-e7400000 rw-p 00000000 00:00 0 
+e74fc000-e74fd000 ---p 00000000 00:00 0 
+e74fd000-e7cfd000 rw-p 00000000 00:00 0 
+e7cfd000-e7cfe000 ---p 00000000 00:00 0 
+e7cfe000-e84fe000 rw-p 00000000 00:00 0 
+e84fe000-e84ff000 ---p 00000000 00:00 0 
+e84ff000-e8cff000 rw-p 00000000 00:00 0 
+e8cff000-e8d00000 ---p 00000000 00:00 0 
+e8d00000-e9500000 rw-p 00000000 00:00 0 
+e9500000-e95ff000 rw-p 00000000 00:00 0 
+e95ff000-e9600000 ---p 00000000 00:00 0 
+e9600000-e96ff000 rw-p 00000000 00:00 0 
+e96ff000-e9700000 ---p 00000000 00:00 0 
+e9700000-e9721000 rw-p 00000000 00:00 0 
+e9721000-e9800000 ---p 00000000 00:00 0 
+e9889000-e988a000 ---p 00000000 00:00 0 
+e988a000-ea08a000 rw-p 00000000 00:00 0 
+ea08a000-ea08b000 ---p 00000000 00:00 0 
+ea08b000-ea88b000 rw-p 00000000 00:00 0 
+ea88b000-ea88c000 ---p 00000000 00:00 0 
+ea88c000-eb08c000 rw-p 00000000 00:00 0 
+eb08c000-eb08d000 ---p 00000000 00:00 0 
+eb08d000-ef707000 rw-p 00000000 00:00 0 
+ef707000-ef708000 ---p 00000000 00:00 0 
+ef708000-effca000 rw-p 00000000 00:00 0 
+effca000-effcb000 ---p 00000000 00:00 0 
+effcb000-f07cb000 rw-p 00000000 00:00 0 
+f07cb000-f07cc000 ---p 00000000 00:00 0 
+f07cc000-f0fcc000 rw-p 00000000 00:00 0 
+f0fcc000-f0fcd000 ---p 00000000 00:00 0 
+f0fcd000-f17cd000 rw-p 00000000 00:00 0 
+f17cd000-f17ce000 ---p 00000000 00:00 0 
+f17ce000-f1fce000 rw-p 00000000 00:00 0 
+f1fce000-f1fcf000 ---p 00000000 00:00 0 
+f1fcf000-f27cf000 rw-p 00000000 00:00 0 
+f27cf000-f27d0000 ---p 00000000 00:00 0 
+f27d0000-f2fd0000 rw-p 00000000 00:00 0 
+f2fd0000-f2fd1000 ---p 00000000 00:00 0 
+f2fd1000-f37d1000 rw-p 00000000 00:00 0 
+f37d1000-f37d2000 ---p 00000000 00:00 0 
+f37d2000-f3fd2000 rw-p 00000000 00:00 0 
+f3fd2000-f3fd3000 ---p 00000000 00:00 0 
+f3fd3000-f47d3000 rw-p 00000000 00:00 0 
+f47d3000-f47d4000 ---p 00000000 00:00 0 
+f47d4000-f4fd4000 rw-p 00000000 00:00 0 
+f4fd4000-f4fd5000 ---p 00000000 00:00 0 
+f4fd5000-f5f57000 rw-p 00000000 00:00 0 
+f5f57000-f60e0000 r-xp 00000000 08:01 109054766                          /home/ogp_agent/OGP_User_Files/1/plugins/sampvoice.so
+f60e0000-f60e1000 ---p 00189000 08:01 109054766                          /home/ogp_agent/OGP_User_Files/1/plugins/sampvoice.so
+f60e1000-f60e6000 r--p 00189000 08:01 109054766                          /home/ogp_agent/OGP_User_Files/1/plugins/sampvoice.so
+f60e6000-f60e8000 rw-p 0018e000 08:01 109054766                          /home/ogp_agent/OGP_User_Files/1/plugins/sampvoice.so
+f60e8000-f6300000 rw-p 00000000 00:00 0 
+f6300000-f6321000 rw-p 00000000 00:00 0 
+f6321000-f6400000 ---p 00000000 00:00 0 
+f640a000-f643b000 rw-p 00000000 00:00 0 
+f643b000-f6450000 r-xp 00000000 08:01 4307805                            /usr/lib/libresolv-2.17.so
+f6450000-f6451000 r--p 00014000 08:01 4307805                            /usr/lib/libresolv-2.17.so
+f6451000-f6452000 rw-p 00015000 08:01 4307805                            /usr/lib/libresolv-2.17.so
+f6452000-f6454000 rw-p 00000000 00:00 0 
+f6454000-f6459000 r-xp 00000000 08:01 4307793                            /usr/lib/libnss_dns-2.17.so
+f6459000-f645a000 r--p 00004000 08:01 4307793                            /usr/lib/libnss_dns-2.17.so
+f645a000-f645b000 rw-p 00005000 08:01 4307793                            /usr/lib/libnss_dns-2.17.so
+f645b000-f648c000 rw-p 00000000 00:00 0 
+f648c000-f6497000 r-xp 00000000 08:01 4307795                            /usr/lib/libnss_files-2.17.so
+f6497000-f6498000 r--p 0000a000 08:01 4307795                            /usr/lib/libnss_files-2.17.so
+f6498000-f6499000 rw-p 0000b000 08:01 4307795                            /usr/lib/libnss_files-2.17.so
+f6499000-f649f000 rw-p 00000000 00:00 0 
+f649f000-f64a0000 ---p 00000000 00:00 0 
+f64a0000-f6e9f000 rw-p 00000000 00:00 0 
+f6e9f000-f71c6000 r-xp 00000000 08:01 109054485                          /home/ogp_agent/OGP_User_Files/1/plugins/mysql_static.so
+f71c6000-f7240000 rw-p 00326000 08:01 109054485                          /home/ogp_agent/OGP_User_Files/1/plugins/mysql_static.so
+f7240000-f7243000 rw-p 00000000 00:00 0 
+f7243000-f724a000 r-xp 00000000 08:01 4307807                            /usr/lib/librt-2.17.so
+f724a000-f724b000 r--p 00006000 08:01 4307807                            /usr/lib/librt-2.17.so
+f724b000-f724c000 rw-p 00007000 08:01 4307807                            /usr/lib/librt-2.17.so
+f7253000-f7316000 r-xp 00000000 08:01 109054769                          /home/ogp_agent/OGP_User_Files/1/plugins/streamer.soOGP_HOME_000000001_startup_scr.sh: line 2:  2109 Aborted                 ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 250 lanmode is OFF.
+
+OGP_HOME_000000001_startup_scr.sh: line 2:  9960 Segmentation fault      ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 250 lanmode is OFF.
+

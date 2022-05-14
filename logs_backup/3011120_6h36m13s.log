@@ -1,0 +1,158 @@
+
+Started server on 139.99.61.26:7777, with maxplayers: 310 lanmode is OFF.
+
+*** Error in `./samp03svr': corrupted size vs. prev_size: 0xe5875588 ***
+======= Backtrace: =========
+/lib/libc.so.6(+0x78dc0)[0xf74d4dc0]
+/lib/libc.so.6(+0x7a568)[0xf74d6568]
+/lib/libc.so.6(__libc_malloc+0x9a)[0xf74d899a]
+/lib/libstdc++.so.6(_Znwj+0x27)[0xf76cfc97]
+/lib/libstdc++.so.6(_Znaj+0x1b)[0xf76cfdab]
+./samp03svr[0x807d788]
+./samp03svr[0x807da8e]
+./samp03svr[0x80705bf]
+./samp03svr[0x8074928]
+./samp03svr[0x80763fe]
+/lib/libpthread.so.0(+0x6bbc)[0xf7777bbc]
+/lib/libc.so.6(clone+0x5e)[0xf755a1de]
+======= Memory map: ========
+08048000-0806c000 r-xp 00000000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+0806c000-0806d000 rwxp 00024000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+0806d000-08095000 r-xp 00025000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08095000-08097000 rwxp 0004d000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08097000-080a1000 r-xp 0004f000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080a1000-080a2000 rwxp 00059000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080a2000-080a5000 r-xp 0005a000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080a5000-080a6000 rwxp 0005d000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080a6000-080aa000 r-xp 0005e000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080aa000-080ab000 rwxp 00062000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+080ab000-08155000 r-xp 00063000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08155000-08156000 rwxp 0010d000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08156000-08180000 r-xp 0010e000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+08180000-081a2000 rw-p 00138000 08:01 83887619                           /home/ogp_agent/OGP_User_Files/1/samp03svr
+081a2000-081cd000 rw-p 00000000 00:00 0 
+087f9000-087fc000 rw-p 00000000 00:00 0                                  [heap]
+087fc000-087fe000 rwxp 00000000 00:00 0                                  [heap]
+087fe000-1a8a7000 rw-p 00000000 00:00 0                                  [heap]
+e2d00000-e2dc1000 rw-p 00000000 00:00 0 
+e2dc1000-e2e00000 ---p 00000000 00:00 0 
+e2f00000-e2fe1000 rw-p 00000000 00:00 0 
+e2fe1000-e3000000 ---p 00000000 00:00 0 
+e3000000-e30e1000 rw-p 00000000 00:00 0 
+e30e1000-e3100000 ---p 00000000 00:00 0 
+e3100000-e31c1000 rw-p 00000000 00:00 0 
+e31c1000-e3200000 ---p 00000000 00:00 0 
+e32fe000-e33ff000 rw-p 00000000 00:00 0 
+e3500000-e35fd000 rw-p 00000000 00:00 0 
+e35fd000-e3600000 ---p 00000000 00:00 0 
+e3600000-e36e1000 rw-p 00000000 00:00 0 
+e36e1000-e3700000 ---p 00000000 00:00 0 
+e3700000-e37e3000 rw-p 00000000 00:00 0 
+e37e3000-e3800000 ---p 00000000 00:00 0 
+e3800000-e3900000 rw-p 00000000 00:00 0 
+e3900000-e3afe000 rw-p 00000000 00:00 0 
+e3afe000-e3b00000 ---p 00000000 00:00 0 
+e3b00000-e3d00000 rw-p 00000000 00:00 0 
+e3d00000-e3f00000 rw-p 00000000 00:00 0 
+e3f00000-e3fe1000 rw-p 00000000 00:00 0 
+e3fe1000-e4000000 ---p 00000000 00:00 0 
+e4000000-e40d1000 rw-p 00000000 00:00 0 
+e40d1000-e4100000 ---p 00000000 00:00 0 
+e4100000-e41e1000 rw-p 00000000 00:00 0 
+e41e1000-e4200000 ---p 00000000 00:00 0 
+e4200000-e42f2000 rw-p 00000000 00:00 0 
+e42f2000-e4300000 ---p 00000000 00:00 0 
+e4300000-e4500000 rw-p 00000000 00:00 0 
+e4500000-e4700000 rw-p 00000000 00:00 0 
+e4700000-e4900000 rw-p 00000000 00:00 0 
+e4900000-e4b00000 rw-p 00000000 00:00 0 
+e4b00000-e4be7000 rw-p 00000000 00:00 0 
+e4be7000-e4c00000 ---p 00000000 00:00 0 
+e4c00000-e4cc1000 rw-p 00000000 00:00 0 
+e4cc1000-e4d00000 ---p 00000000 00:00 0 
+e4d00000-e4dfb000 rw-p 00000000 00:00 0 
+e4dfb000-e4e00000 ---p 00000000 00:00 0 
+e4e00000-e4efe000 rw-p 00000000 00:00 0 
+e4efe000-e4f00000 ---p 00000000 00:00 0 
+e4f00000-e4ff3000 rw-p 00000000 00:00 0 
+e4ff3000-e5000000 ---p 00000000 00:00 0 
+e5000000-e5100000 rw-p 00000000 00:00 0 
+e5100000-e51f6000 rw-p 00000000 00:00 0 
+e51f6000-e5200000 ---p 00000000 00:00 0 
+e5200000-e5300000 rw-p 00000000 00:00 0 
+e5300000-e54fc000 rw-p 00000000 00:00 0 
+e54fc000-e5500000 ---p 00000000 00:00 0 
+e5500000-e5700000 rw-p 00000000 00:00 0 
+e5700000-e5900000 rw-p 00000000 00:00 0 
+e5900000-e5b00000 rw-p 00000000 00:00 0 
+e5b00000-e5bff000 rw-p 00000000 00:00 0 
+e5bff000-e5c00000 ---p 00000000 00:00 0 
+e5c00000-e5d00000 rw-p 00000000 00:00 0 
+e5d00000-e5f00000 rw-p 00000000 00:00 0 
+e5f00000-e6000000 rw-p 00000000 00:00 0 
+e607d000-e60fe000 rw-p 00000000 00:00 0 
+e60fe000-e60ff000 ---p 00000000 00:00 0 
+e60ff000-e68ff000 rw-p 00000000 00:00 0 
+e68ff000-e6900000 ---p 00000000 00:00 0 
+e6900000-e7100000 rw-p 00000000 00:00 0 
+e7100000-e7200000 rw-p 00000000 00:00 0 
+e727b000-e72fc000 rw-p 00000000 00:00 0 
+e72fc000-e72fd000 ---p 00000000 00:00 0 
+e72fd000-e7afd000 rw-p 00000000 00:00 0 
+e7afd000-e7afe000 ---p 00000000 00:00 0 
+e7afe000-e82fe000 rw-p 00000000 00:00 0 
+e82fe000-e82ff000 ---p 00000000 00:00 0 
+e82ff000-e8aff000 rw-p 00000000 00:00 0 
+e8aff000-e8b00000 ---p 00000000 00:00 0 
+e8b00000-e9300000 rw-p 00000000 00:00 0 
+e9300000-e9371000 rw-p 00000000 00:00 0 
+e9371000-e9400000 ---p 00000000 00:00 0 
+e94fd000-e94fe000 ---p 00000000 00:00 0 
+e94fe000-e9cfe000 rw-p 00000000 00:00 0 
+e9cfe000-e9cff000 ---p 00000000 00:00 0 
+e9cff000-ea4ff000 rw-p 00000000 00:00 0 
+ea4ff000-ea500000 ---p 00000000 00:00 0 
+ea500000-ead00000 rw-p 00000000 00:00 0 
+ead00000-ead21000 rw-p 00000000 00:00 0 
+ead21000-eae00000 ---p 00000000 00:00 0 
+eae66000-eaea7000 rw-p 00000000 00:00 0 
+eaee8000-eaee9000 ---p 00000000 00:00 0 
+eaee9000-ef6d8000 rw-p 00000000 00:00 0 
+ef6d8000-ef6d9000 ---p 00000000 00:00 0 
+ef6d9000-effca000 rw-p 00000000 00:00 0 
+effca000-effcb000 ---p 00000000 00:00 0 
+effcb000-f07cb000 rw-p 00000000 00:00 0 
+f07cb000-f07cc000 ---p 00000000 00:00 0 
+f07cc000-f0fcc000 rw-p 00000000 00:00 0 
+f0fcc000-f0fcd000 ---p 00000000 00:00 0 
+f0fcd000-f17cd000 rw-p 00000000 00:00 0 
+f17cd000-f17ce000 ---p 00000000 00:00 0 
+f17ce000-f1fce000 rw-p 00000000 00:00 0 
+f1fce000-f1fcf000 ---p 00000000 00:00 0 
+f1fcf000-f27cf000 rw-p 00000000 00:00 0 
+f27cf000-f27d0000 ---p 00000000 00:00 0 
+f27d0000-f2fd0000 rw-p 00000000 00:00 0 
+f2fd0000-f2fd1000 ---p 00000000 00:00 0 
+f2fd1000-f37d1000 rw-p 00000000 00:00 0 
+f37d1000-f37d2000 ---p 00000000 00:00 0 
+f37d2000-f3fd2000 rw-p 00000000 00:00 0 
+f3fd2000-f3fd3000 ---p 00000000 00:00 0 
+f3fd3000-f47d3000 rw-p 00000000 00:00 0 
+f47d3000-f47d4000 ---p 00000000 00:00 0 
+f47d4000-f4fd4000 rw-p 00000000 00:00 0 
+f4fd4000-f4fd5000 ---p 00000000 00:00 0 
+f4fd5000-f5f57000 rw-p 00000000 00:00 0 
+f5f57000-f60e0000 r-xp 00000000 08:01 109054766                          /home/ogp_agent/OGP_User_Files/1/plugins/sampvoice.so
+f60e0000-f60e1000 ---p 00189000 08:01 109054766                          /home/ogp_agent/OGP_User_Files/1/plugins/sampvoice.so
+f60e1000-f60e6000 r--p 00189000 08:01 109054766                          /home/ogp_agent/OGP_User_Files/1/plugins/sampvoice.so
+f60e6000-f60e8000 rw-p 0018e000 08:01 109054766                          /home/ogp_agent/OGP_User_Files/1/plugins/sampvoice.so
+f60e8000-f6300000 rw-p 00000000 00:00 0 OGP_HOME_000000001_startup_scr.sh: line 2:  4144 Aborted                 ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 310 lanmode is OFF.
+
+OGP_HOME_000000001_startup_scr.sh: line 2: 13374 Segmentation fault      ./samp03svr
+Server './samp03svr ' crashed with exit code 0.  Respawning...
+
+Started server on 139.99.61.26:7777, with maxplayers: 310 lanmode is OFF.
+
